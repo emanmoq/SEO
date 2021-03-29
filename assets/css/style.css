@@ -144,6 +144,10 @@ float:left;
 width:400px;
 height: 45px;;
 }
+.subscribeBox .gfield_label{
+    position: absolute;
+    display: none;
+}
  .subscribeBox .form-control{
     background-color: rgba(69, 158, 255, .05);
     border-radius: 5px;
@@ -350,15 +354,17 @@ color:var(--sub-font-color)
 color:var(--main-color);
 font-size:1em;
 }
-.contactForm .sectionTitle h2{
+.contactUs .sectionTitle h2{
     font-size:1.7777777777777777em;
     color:#220554;
 }
-.contactForm .sectionTitle{
+.contactUs .sectionTitle{
     margin-bottom:30px;
 }
-
-
+.contactForm .gfield_required{
+    display: none;
+    position: absolute;
+}
 .contactForm .form-group{
     margin-bottom:25px;
 }
